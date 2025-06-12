@@ -316,7 +316,7 @@ body{
     padding: 0 5px;
     font-size: 16px;
 }
-.nav-link:hover .fa-angle-down{
+.nav-link:hover .down{
     transform: rotate(180deg);
 }
 .header-icons {
@@ -778,14 +778,16 @@ body{
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #50c7c7;
+    box-shadow: 0 0 2px black;
     font-size: 18px;
+    color:var(--text-color);
     font-family: "Quicksand" , Kantumruy Pro ;
 }
 
 .contact-form button {
-    background-color: #1e90ff;
-    color: white;
+    background-color: #eaeaeb;
+    color:black;
+    box-shadow: 0 0 2px black;
     border: none;
     padding: 10px;
     width: 100%;
@@ -801,6 +803,7 @@ body{
 }
 /* ../login */
 .section-login{
+  padding-top: 30px;
    background-color: #685e5e;
    width: 100%;
    height: 100vh;
@@ -1047,6 +1050,7 @@ body{
     text-align: center;
     width: 100%;
     color: white;
+    background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 15px rgba(22, 21, 21, 0.8);
 }
 
@@ -1064,9 +1068,13 @@ body{
     width: 100%;
     padding: 12px;
     padding-left: 40px;
-    border: none;
     border-radius: 5px;
-    background: #a79f9f;
+    background: transparent;
+    background: transparent;
+    border: 2px solid #00bcd4;
+    border-radius: 5px;
+    color: white;
+    outline: none;
     color: white;
     outline: none;
     font-family: "Quicksand" , Kantumruy Pro ;
@@ -1077,7 +1085,7 @@ body{
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: #ff0844;
+    color: rgb(8, 201, 226);
 }
 
 .signup-btn {
@@ -1085,7 +1093,7 @@ body{
     padding: 12px;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, #1d1b1c, #917b74);
+    background-color: rgb(7, 159, 247);
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -1103,7 +1111,7 @@ body{
 }
 
 .signup-box1 a {
-    color: #ff0844;
+    color: #09bfdf;
     text-decoration: none;
     font-weight: 600;
 }
@@ -1275,7 +1283,7 @@ body{
   color: #06e449;
 }
 .women-left h1{
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 40px;
   color: var(--text-color);
 }
@@ -1283,6 +1291,7 @@ body{
   margin: 20px 0;
   font-size: 20px;
   color: var(--text-color);
+  line-height: 1.5;
 }
 .women-left button{
   font-size: 20px;
@@ -1331,6 +1340,7 @@ marquee{
 .men-title h1{
     font-size: 25px;
     padding: 20px 0;
+   
 }
 .men{
     margin-top: 50px;
@@ -1356,18 +1366,24 @@ marquee{
     font-size: 20px;
     padding: 60px 0px;
     color:var(--text-color);
+    font-family: "Quicksand" , Kantumruy Pro ;
 }
-.hero-men h1{
-    padding: 10px;
-}
+
 .hero-men h4{
     padding: 10px 0;
 }
 .hero-men p{
     padding: 10px 0;
+    line-height: 2;
 }
 .hero-men button{
    margin: 20px 0;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-family: "Quicksand" , Kantumruy Pro ;
+}
+.padding-col{
+  padding-left: 70px;
 }
 /* brand=diro */
 .diro{
@@ -1458,7 +1474,7 @@ marquee{
   .add-to-cart {
     width: 100%;
     padding: 12px;
-    background-color: #0072ce;
+    background-color: #e0e0e0;
     color: white;
     font-size: 14px;
     border: none;
@@ -2308,14 +2324,17 @@ marquee{
 }
 
 .shop-btn {
-  background-color: #bbb1aa;
+  background-color: #fcfcfc;
   color: var(--text-color);
   border: none;
   padding: 10px 20px;
   font-size: 16px;
-  border-radius: 5px;
   cursor: pointer;
   font-family: "Quicksand" , Kantumruy Pro ;
+}
+.main-banner button{
+  font-family: "Quicksand" , Kantumruy Pro ;
+  padding: 10px 20px;
 }
 .sid{
   margin: 50px 0;
@@ -2513,4 +2532,8 @@ border-radius: 5px;
 }
 .footer-display a{
 padding: 0 5px;
+}
+
+@media screen  and ({
+  
 }
